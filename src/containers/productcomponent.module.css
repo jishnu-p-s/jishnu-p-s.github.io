@@ -4,7 +4,8 @@
 }
 .product {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: 5px;
 }
 .imagediv {
   text-align: center;
