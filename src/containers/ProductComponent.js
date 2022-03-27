@@ -42,7 +42,7 @@ const ProductComponent = ({ products }) => {
                   <s>{formatNumber(original_price)}</s>
                 </div>
                 <div className={styles.discount}>
-                  {discountPercent(original_price, selling_price)}%Off
+                  {discountPercent(original_price, selling_price)}% Off
                 </div>
               </div>
             </div>

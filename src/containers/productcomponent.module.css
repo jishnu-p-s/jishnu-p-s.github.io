@@ -4,7 +4,7 @@
 }
 .product {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
 }
 .imagediv {
   text-align: center;
@@ -18,11 +18,10 @@
   background-color: white;
   padding: 15px 20px;
   border-radius: 10px;
+  margin: 0px auto;
 }
 .card {
-  text-align: -moz-center;
-  padding: 3px 2px;
-  margin: 5px 0px;
+  margin: 10px 0px;
 }
 
 .title {
@@ -59,7 +58,7 @@ s::before,
 strike::before {
   top: 50%;
   background: red;
-  opacity: 0.7;
+  opacity: 0.9;
   content: "";
   width: 110%;
   position: absolute;
