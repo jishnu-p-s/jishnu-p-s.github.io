@@ -19,12 +19,14 @@ const Header = () => {
       dispatch(focusInput(false));
     }
   }, [focus, dispatch]);
-  console.log(searchText);
+
+  const image = "starlink.png";
+
   return (
     <div style={theme} className="ui fixed menu">
       <div className="ui  container center">
         <Link to="/">
-          <h2 style={theme}>Star link</h2>
+          <img style={{ width: "100px" }} src={image} alt="starlink"></img>
         </Link>
         <button
           style={{
