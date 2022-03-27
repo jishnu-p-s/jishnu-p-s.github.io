@@ -1,0 +1,122 @@
+.product_box {
+  text-align: center;
+  margin: 5px 5px;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+}
+.imagediv {
+  text-align: center;
+}
+.imagediv img {
+  height: 250px;
+  width: 188px;
+}
+.productcard {
+  max-width: 300px;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+.card {
+  text-align: -moz-center;
+  padding: 3px 2px;
+  margin: 5px 0px;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+  font-size: 16px;
+}
+.textfield {
+  text-align: left;
+  color: black;
+}
+.textfield div {
+  margin: 1px 0px;
+}
+.pricecontainer {
+  display: flex;
+  gap: 8px;
+}
+.sp {
+  font-weight: 500;
+}
+.cp {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+s,
+strike {
+  text-decoration: none;
+  position: relative;
+}
+s::before,
+strike::before {
+  top: 50%;
+  background: red;
+  opacity: 0.7;
+  content: "";
+  width: 110%;
+  position: absolute;
+  height: 0.1em;
+  border-radius: 0.1em;
+  left: -5%;
+  white-space: nowrap;
+  display: block;
+  transform: rotate(-15deg);
+}
+s.straight::before,
+strike.straight::before {
+  transform: rotate(0deg);
+  left: -1%;
+  width: 102%;
+}
+.discount {
+  color: darkgreen;
+  font-weight: 400;
+}
+.addtocart {
+  width: 100%;
+  text-align: left;
+}
+.buttonGroup {
+  display: flex;
+  border: 2px solid lightgray;
+  width: 90px;
+  border-radius: 5px;
+}
+.buttonGroup div {
+  height: inherit;
+  width: 30px;
+  padding-top: 4px;
+  color: black;
+  text-align: center;
+}
+.buttonGroup button {
+  outline: none;
+  cursor: pointer;
+  padding: 3px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  opacity: 0.9;
+}
+.buttonGroup button:disabled {
+  background-color: lightgray;
+  color: black;
+}
+.buttonGroup button:hover {
+  opacity: 1;
+}
+.addDiv {
+  cursor: pointer;
+}
+.addDiv:hover {
+  background-color: lightblue;
+}
