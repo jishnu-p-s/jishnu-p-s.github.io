@@ -43,7 +43,7 @@ const Header = () => {
             dispatch(changeTheme(mode === "dark" ? "light" : "dark"));
           }}
         >
-          Switch to {mode === "dark" ? "LIGHT " : "DARK"}Mode
+          {mode === "dark" ? "LIGHT " : "DARK"}
         </button>
         <input
           onChange={onChange}

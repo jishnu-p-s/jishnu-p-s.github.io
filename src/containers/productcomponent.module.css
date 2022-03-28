@@ -80,10 +80,7 @@ strike.straight::before {
   color: darkgreen;
   font-weight: 400;
 }
-.addtocart {
-  width: 100%;
-  text-align: left;
-}
+
 .buttonGroup {
   display: flex;
   border: 2px solid lightgray;
