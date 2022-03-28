@@ -37,6 +37,7 @@ const Header = () => {
             border: 0,
             borderRadius: 10,
             boxShadow: "1px 2px #888888",
+            cursor: "pointer",
           }}
           className="ui link cards"
           onClick={() => {
